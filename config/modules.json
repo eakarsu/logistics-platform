@@ -1,0 +1,188 @@
+[
+  {
+    "id": "ai-3pl-warehouse-invoice-sla-recovery",
+    "name": "3pl warehouse invoice sla recovery",
+    "sourceProject": "ai-3pl-warehouse-invoice-sla-recovery",
+    "services": []
+  },
+  {
+    "id": "ai-air-freight-invoice-audit-recovery",
+    "name": "Air freight invoice audit recovery",
+    "sourceProject": "ai-air-freight-invoice-audit-recovery",
+    "services": []
+  },
+  {
+    "id": "ai-bonded-warehouse-duty-deferral-control",
+    "name": "Bonded warehouse duty deferral control",
+    "sourceProject": "ai-bonded-warehouse-duty-deferral-control",
+    "services": []
+  },
+  {
+    "id": "ai-cold-storage-invoice-capacity-audit",
+    "name": "Cold storage invoice capacity audit",
+    "sourceProject": "ai-cold-storage-invoice-capacity-audit",
+    "services": []
+  },
+  {
+    "id": "ai-customs-duty-drawback-tariff-recovery",
+    "name": "Customs duty drawback tariff recovery",
+    "sourceProject": "ai-customs-duty-drawback-tariff-recovery",
+    "services": []
+  },
+  {
+    "id": "ai-drayage-chassis-invoice-recovery",
+    "name": "Drayage chassis invoice recovery",
+    "sourceProject": "ai-drayage-chassis-invoice-recovery",
+    "services": []
+  },
+  {
+    "id": "ai-fleet-fuel-card-toll-leakage-recovery",
+    "name": "Fleet fuel card toll leakage recovery",
+    "sourceProject": "ai-fleet-fuel-card-toll-leakage-recovery",
+    "services": []
+  },
+  {
+    "id": "ai-foreign-trade-zone-duty-savings-compliance",
+    "name": "Foreign trade zone duty savings compliance",
+    "sourceProject": "ai-foreign-trade-zone-duty-savings-compliance",
+    "services": []
+  },
+  {
+    "id": "ai-freight-detention-demurrage-recovery",
+    "name": "Freight detention demurrage recovery",
+    "sourceProject": "ai-freight-detention-demurrage-recovery",
+    "services": []
+  },
+  {
+    "id": "ai-intermodal-accessorial-invoice-audit",
+    "name": "Intermodal accessorial invoice audit",
+    "sourceProject": "ai-intermodal-accessorial-invoice-audit",
+    "services": []
+  },
+  {
+    "id": "ai-ocean-freight-contract-rate-audit",
+    "name": "Ocean freight contract rate audit",
+    "sourceProject": "ai-ocean-freight-contract-rate-audit",
+    "services": []
+  },
+  {
+    "id": "ai-pallet-pooling-reusable-packaging-recovery",
+    "name": "Pallet pooling reusable packaging recovery",
+    "sourceProject": "ai-pallet-pooling-reusable-packaging-recovery",
+    "services": []
+  },
+  {
+    "id": "ai-parcel-ltl-invoice-audit-recovery",
+    "name": "Parcel ltl invoice audit recovery",
+    "sourceProject": "ai-parcel-ltl-invoice-audit-recovery",
+    "services": []
+  },
+  {
+    "id": "ai-port-terminal-handling-invoice-audit",
+    "name": "Port terminal handling invoice audit",
+    "sourceProject": "ai-port-terminal-handling-invoice-audit",
+    "services": []
+  },
+  {
+    "id": "ai-reverse-logistics-vendor-credit-recovery",
+    "name": "Reverse logistics vendor credit recovery",
+    "sourceProject": "ai-reverse-logistics-vendor-credit-recovery",
+    "services": []
+  },
+  {
+    "id": "ai-small-parcel-guaranteed-service-refund-recovery",
+    "name": "Small parcel guaranteed service refund recovery",
+    "sourceProject": "ai-small-parcel-guaranteed-service-refund-recovery",
+    "services": []
+  },
+  {
+    "id": "ai-tariff-classification-origin-refund-recovery",
+    "name": "Tariff classification origin refund recovery",
+    "sourceProject": "ai-tariff-classification-origin-refund-recovery",
+    "services": []
+  },
+  {
+    "id": "ai-truckload-freight-fuel-surcharge-audit",
+    "name": "Truckload freight fuel surcharge audit",
+    "sourceProject": "ai-truckload-freight-fuel-surcharge-audit",
+    "services": []
+  },
+  {
+    "id": "AIAnalyzetelematics",
+    "name": "Analyzetelematics",
+    "sourceProject": "AIAnalyzetelematics",
+    "services": []
+  },
+  {
+    "id": "AIAutonomousVehicleSimulator",
+    "name": "Autonomous vehicle simulator",
+    "sourceProject": "AIAutonomousVehicleSimulator",
+    "services": []
+  },
+  {
+    "id": "AIColdChainMonitoringCompliance",
+    "name": "Cold chain monitoring compliance",
+    "sourceProject": "AIColdChainMonitoringCompliance",
+    "services": []
+  },
+  {
+    "id": "AICustoms",
+    "name": "Customs",
+    "sourceProject": "AICustoms",
+    "services": []
+  },
+  {
+    "id": "AIFleetElectrificationPlanner",
+    "name": "Fleet electrification planner",
+    "sourceProject": "AIFleetElectrificationPlanner",
+    "services": []
+  },
+  {
+    "id": "AIFleetMaintenanceScheduler",
+    "name": "Fleet maintenance scheduler",
+    "sourceProject": "AIFleetMaintenanceScheduler",
+    "services": []
+  },
+  {
+    "id": "AIFreightPricingAgent",
+    "name": "Freight pricing agent",
+    "sourceProject": "AIFreightPricingAgent",
+    "services": []
+  },
+  {
+    "id": "AILast-MileDeliveryOptimizer",
+    "name": "Last mile delivery optimizer",
+    "sourceProject": "AILast-MileDeliveryOptimizer",
+    "services": []
+  },
+  {
+    "id": "AIMaritimeShippingPortLogistics",
+    "name": "Maritime shipping port logistics",
+    "sourceProject": "AIMaritimeShippingPortLogistics",
+    "services": []
+  },
+  {
+    "id": "AISupplyChainReshoringAdvisor",
+    "name": "Supply chain reshoring advisor",
+    "sourceProject": "AISupplyChainReshoringAdvisor",
+    "services": []
+  },
+  {
+    "id": "AISupplyChainTracker",
+    "name": "Supply chain tracker",
+    "sourceProject": "AISupplyChainTracker",
+    "services": []
+  },
+  {
+    "id": "AIWarehouseManager",
+    "name": "Warehouse manager",
+    "sourceProject": "AIWarehouseManager",
+    "services": []
+  },
+  {
+    "id": "shipping",
+    "name": "Shipping",
+    "sourceProject": "shipping",
+    "services": []
+  }
+]

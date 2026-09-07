@@ -1,0 +1,18 @@
+{
+  "id": "logistics-platform",
+  "status": "passed",
+  "features": 565,
+  "editableTables": 563,
+  "minimumRows": 15,
+  "repeatSeedCreated": 0,
+  "crud": true,
+  "persistence": true,
+  "relationships": true,
+  "revisions": true,
+  "attachments": true,
+  "exports": true,
+  "mockedAI": true,
+  "originProtection": true,
+  "sourceCalculationsExecuted": 15,
+  "verifiedAt": "2026-09-07T22:05:52.946Z"
+}

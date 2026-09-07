@@ -1,0 +1,9 @@
+{
+  "app": "logistics-platform",
+  "features": 565,
+  "sourceApps": 31,
+  "calculatorEngines": 1,
+  "registryHash": "69d3fa1fb9de2905b3401d0863dd2f45ef5ce3ce6a7b876a8f81499c22752bac",
+  "builtAt": "2026-09-07T22:05:51.844Z",
+  "status": "built"
+}

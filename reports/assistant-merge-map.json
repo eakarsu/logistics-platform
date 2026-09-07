@@ -1,0 +1,2272 @@
+[
+  {
+    "id": "ai-documents",
+    "title": "Writing, documents & knowledge",
+    "group": "AI assistants",
+    "path": "/assistants/ai-documents",
+    "featureIds": [
+      "notes",
+      "documents",
+      "templates",
+      "documents-lacks-ai-declaration-auto-generation",
+      "center-generate-report"
+    ],
+    "ai": true,
+    "representativeId": "notes",
+    "description": "One assistant for 5 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "notes",
+        "title": "Notes",
+        "originalPath": "/features/notes"
+      },
+      {
+        "id": "documents",
+        "title": "Documents",
+        "originalPath": "/features/documents"
+      },
+      {
+        "id": "templates",
+        "title": "Templates",
+        "originalPath": "/features/templates"
+      },
+      {
+        "id": "documents-lacks-ai-declaration-auto-generation",
+        "title": "Documents lacks ai declaration auto generation",
+        "originalPath": "/features/documents-lacks-ai-declaration-auto-generation"
+      },
+      {
+        "id": "center-generate-report",
+        "title": "Report Generator",
+        "originalPath": "/features/center-generate-report"
+      }
+    ]
+  },
+  {
+    "id": "ai-general",
+    "title": "General assistance",
+    "group": "AI assistants",
+    "path": "/assistants/ai-general",
+    "featureIds": [
+      "3pl-contract-and-rate-library",
+      "facility-and-account-registry",
+      "inventory-snapshot-ingestion",
+      "storage-position-recalculation",
+      "minimum-commitment-calculation",
+      "inventory-accuracy-sla",
+      "order-cutoff-and-fulfillment-sla",
+      "loss-and-damage-claims",
+      "3pl-dispute-package",
+      "facility-sku-and-activity-analytics",
+      "airline-forwarder-contract-library",
+      "air-waybill-ingestion",
+      "dimensional-weight-calculation",
+      "chargeable-weight-calculation",
+      "base-rate-reconstruction",
+      "minimum-charge-calculation",
+      "dispute-package",
+      "carrier-lane-analytics",
+      "bonded-facility-registry",
+      "warehouse-entry-ingestion",
+      "lot-serial-traceability",
+      "manipulation-tracking",
+      "withdrawal-for-consumption",
+      "five-year-deadline-monitoring",
+      "duty-liability-calculation",
+      "bond-sufficiency-monitoring",
+      "inventory-discrepancy-workflow",
+      "facility-inventory-analytics",
+      "storage-agreement-library",
+      "facility-zone-registry",
+      "lot-pallet-ingestion",
+      "daily-inventory-reconstruction",
+      "pallet-day-calculation",
+      "blast-freezing-charge",
+      "facility-dispute-workflow",
+      "facility-product-analytics",
+      "drayage-contract-library",
+      "port-rail-event-ingestion",
+      "base-drayage-calculation",
+      "failed-attempt-responsibility",
+      "port-carrier-analytics",
+      "card-driver-and-vehicle-registry",
+      "fuel-transaction-ingestion",
+      "toll-transaction-ingestion",
+      "vendor-dispute-and-recovery",
+      "vehicle-vendor-and-route-analytics",
+      "zone-and-activation-registry",
+      "foreign-and-domestic-status",
+      "admission-transaction-ingestion",
+      "zone-to-zone-transfer-management",
+      "production-bom-consumption",
+      "inverted-tariff-savings-calculation",
+      "duty-deferral-calculation",
+      "scrap-and-waste-treatment",
+      "export-and-destruction-relief",
+      "entry-and-withdrawal-preparation",
+      "cbp-discrepancy-workflow",
+      "ftz-annual-report-preparation",
+      "provider-contract-library",
+      "shipment-container-registry",
+      "rail-event-ingestion",
+      "terminal-event-timeline",
+      "free-time-calculation",
+      "chassis-responsibility",
+      "drayage-linkage",
+      "provider-dispute-package",
+      "terminal-provider-analytics",
+      "service-contract-library",
+      "origin-destination-rate-matrix",
+      "container-and-equipment-registry",
+      "bill-of-lading-ingestion",
+      "base-ocean-rate-reconstruction",
+      "mqc-tracking",
+      "carrier-dispute-generation",
+      "lane-and-equipment-analytics",
+      "asset-rate-library",
+      "serialized-pooled-registry",
+      "shipment-transfer-ingestion",
+      "trading-partner-balances",
+      "daily-hire-calculation",
+      "transfer-rejection-workflow",
+      "unreturned-asset-alerts",
+      "provider-dispute-workflow",
+      "asset-recovery-ledger",
+      "network-cycle-analytics",
+      "carrier-contract-and-rate-card-library",
+      "shipment-manifest-ingestion",
+      "base-rate-recalculation",
+      "late-delivery-guarantee-recovery",
+      "carrier-dispute-packet-generation",
+      "carrier-lane-and-leakage-analytics",
+      "terminal-tariff-library",
+      "gate-event-ingestion",
+      "wharfage-calculation",
+      "reefer-power-duration",
+      "overweight-handling",
+      "customs-exam-charge",
+      "empty-return-treatment",
+      "terminal-dispute-workflow",
+      "port-charge-analytics",
+      "return-authorization-registry",
+      "sku-and-serial-tracking",
+      "return-shipment-generation",
+      "vendor-receipt-confirmation",
+      "core-and-deposit-recovery",
+      "vendor-inquiry-workflow",
+      "vendor-and-sku-recovery-analytics",
+      "carrier-agreement-library",
+      "package-manifest-ingestion",
+      "tracking-event-timeline",
+      "service-commitment-calculation",
+      "weather-waiver-review",
+      "denial-appeal-workflow",
+      "carrier-service-analytics",
+      "product-master-ingestion",
+      "binding-ruling-library",
+      "substantial-transformation-test",
+      "trade-agreement-qualification",
+      "section-301-exclusion-mapping",
+      "entry-line-ingestion",
+      "duty-recalculation",
+      "post-summary-correction",
+      "prior-disclosure-coordination",
+      "customs-response-tracking",
+      "product-origin-analytics",
+      "carrier-broker-agreement-library",
+      "lane-rate-registry",
+      "tender-load-ingestion",
+      "contract-versus-spot-determination",
+      "linehaul-recalculation",
+      "mileage-calculation",
+      "carrier-dispute-workflow",
+      "lane-carrier-analytics",
+      "routes",
+      "maintenance",
+      "analytics-carbon",
+      "analytics-fleet-utilization",
+      "fleet-summary",
+      "driver-coaching",
+      "fuel-waste",
+      "carbon-tracker",
+      "breakdown-prevention",
+      "load-balancer",
+      "driver-wellness",
+      "driver-burnout",
+      "models",
+      "assistant",
+      "api-ai-broker-instruction",
+      "supply-chain-visibility",
+      "dynamic-rate",
+      "lane-profitability",
+      "spot-market-scan",
+      "damage-vision",
+      "results",
+      "vision-based-damage-assessment-accepting",
+      "market-intelligence",
+      "hub",
+      "performance",
+      "improvements",
+      "driver-route-match",
+      "vehicle-maintenance-alert",
+      "weather",
+      "center-chat",
+      "center-simulate-scenario",
+      "port-drayage-constraint",
+      "usage",
+      "home-staging",
+      "furniture-placer",
+      "home-inspector",
+      "suggestions",
+      "material-contractor",
+      "batch09-gap-ai-generative-variant-exploration-alternate-layouts-in-seconds",
+      "batch09-gap-nonai-client-communication-portal-messaging-thread",
+      "batch09-gap-nonai-project-timeline-gantt-tracking-with-dependencies",
+      "batch09-gap-nonai-bulk-import-from-photos-folder-ingest",
+      "batch09-gap-nonai-vendorsupplier-order-tracking-integrated-to-shopping-lists",
+      "shipping"
+    ],
+    "ai": true,
+    "representativeId": "3pl-contract-and-rate-library",
+    "description": "One assistant for 177 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "3pl-contract-and-rate-library",
+        "title": "3PL contract and rate library",
+        "originalPath": "/features/3pl-contract-and-rate-library"
+      },
+      {
+        "id": "facility-and-account-registry",
+        "title": "Facility and account registry",
+        "originalPath": "/features/facility-and-account-registry"
+      },
+      {
+        "id": "inventory-snapshot-ingestion",
+        "title": "Inventory snapshot ingestion",
+        "originalPath": "/features/inventory-snapshot-ingestion"
+      },
+      {
+        "id": "storage-position-recalculation",
+        "title": "Storage position recalculation",
+        "originalPath": "/features/storage-position-recalculation"
+      },
+      {
+        "id": "minimum-commitment-calculation",
+        "title": "Minimum commitment calculation",
+        "originalPath": "/features/minimum-commitment-calculation"
+      },
+      {
+        "id": "inventory-accuracy-sla",
+        "title": "Inventory accuracy SLA",
+        "originalPath": "/features/inventory-accuracy-sla"
+      },
+      {
+        "id": "order-cutoff-and-fulfillment-sla",
+        "title": "Order cutoff and fulfillment SLA",
+        "originalPath": "/features/order-cutoff-and-fulfillment-sla"
+      },
+      {
+        "id": "loss-and-damage-claims",
+        "title": "Loss and damage claims",
+        "originalPath": "/features/loss-and-damage-claims"
+      },
+      {
+        "id": "3pl-dispute-package",
+        "title": "3PL dispute package",
+        "originalPath": "/features/3pl-dispute-package"
+      },
+      {
+        "id": "facility-sku-and-activity-analytics",
+        "title": "Facility SKU and activity analytics",
+        "originalPath": "/features/facility-sku-and-activity-analytics"
+      },
+      {
+        "id": "airline-forwarder-contract-library",
+        "title": "Airline forwarder contract library",
+        "originalPath": "/features/airline-forwarder-contract-library"
+      },
+      {
+        "id": "air-waybill-ingestion",
+        "title": "Air waybill ingestion",
+        "originalPath": "/features/air-waybill-ingestion"
+      },
+      {
+        "id": "dimensional-weight-calculation",
+        "title": "Dimensional weight calculation",
+        "originalPath": "/features/dimensional-weight-calculation"
+      },
+      {
+        "id": "chargeable-weight-calculation",
+        "title": "Chargeable weight calculation",
+        "originalPath": "/features/chargeable-weight-calculation"
+      },
+      {
+        "id": "base-rate-reconstruction",
+        "title": "Base rate reconstruction",
+        "originalPath": "/features/base-rate-reconstruction"
+      },
+      {
+        "id": "minimum-charge-calculation",
+        "title": "Minimum charge calculation",
+        "originalPath": "/features/minimum-charge-calculation"
+      },
+      {
+        "id": "dispute-package",
+        "title": "Dispute package",
+        "originalPath": "/features/dispute-package"
+      },
+      {
+        "id": "carrier-lane-analytics",
+        "title": "Carrier lane analytics",
+        "originalPath": "/features/carrier-lane-analytics"
+      },
+      {
+        "id": "bonded-facility-registry",
+        "title": "Bonded facility registry",
+        "originalPath": "/features/bonded-facility-registry"
+      },
+      {
+        "id": "warehouse-entry-ingestion",
+        "title": "Warehouse entry ingestion",
+        "originalPath": "/features/warehouse-entry-ingestion"
+      },
+      {
+        "id": "lot-serial-traceability",
+        "title": "Lot serial traceability",
+        "originalPath": "/features/lot-serial-traceability"
+      },
+      {
+        "id": "manipulation-tracking",
+        "title": "Manipulation tracking",
+        "originalPath": "/features/manipulation-tracking"
+      },
+      {
+        "id": "withdrawal-for-consumption",
+        "title": "Withdrawal for consumption",
+        "originalPath": "/features/withdrawal-for-consumption"
+      },
+      {
+        "id": "five-year-deadline-monitoring",
+        "title": "Five-year deadline monitoring",
+        "originalPath": "/features/five-year-deadline-monitoring"
+      },
+      {
+        "id": "duty-liability-calculation",
+        "title": "Duty liability calculation",
+        "originalPath": "/features/duty-liability-calculation"
+      },
+      {
+        "id": "bond-sufficiency-monitoring",
+        "title": "Bond sufficiency monitoring",
+        "originalPath": "/features/bond-sufficiency-monitoring"
+      },
+      {
+        "id": "inventory-discrepancy-workflow",
+        "title": "Inventory discrepancy workflow",
+        "originalPath": "/features/inventory-discrepancy-workflow"
+      },
+      {
+        "id": "facility-inventory-analytics",
+        "title": "Facility inventory analytics",
+        "originalPath": "/features/facility-inventory-analytics"
+      },
+      {
+        "id": "storage-agreement-library",
+        "title": "Storage agreement library",
+        "originalPath": "/features/storage-agreement-library"
+      },
+      {
+        "id": "facility-zone-registry",
+        "title": "Facility zone registry",
+        "originalPath": "/features/facility-zone-registry"
+      },
+      {
+        "id": "lot-pallet-ingestion",
+        "title": "Lot pallet ingestion",
+        "originalPath": "/features/lot-pallet-ingestion"
+      },
+      {
+        "id": "daily-inventory-reconstruction",
+        "title": "Daily inventory reconstruction",
+        "originalPath": "/features/daily-inventory-reconstruction"
+      },
+      {
+        "id": "pallet-day-calculation",
+        "title": "Pallet-day calculation",
+        "originalPath": "/features/pallet-day-calculation"
+      },
+      {
+        "id": "blast-freezing-charge",
+        "title": "Blast freezing charge",
+        "originalPath": "/features/blast-freezing-charge"
+      },
+      {
+        "id": "facility-dispute-workflow",
+        "title": "Facility dispute workflow",
+        "originalPath": "/features/facility-dispute-workflow"
+      },
+      {
+        "id": "facility-product-analytics",
+        "title": "Facility product analytics",
+        "originalPath": "/features/facility-product-analytics"
+      },
+      {
+        "id": "drayage-contract-library",
+        "title": "Drayage contract library",
+        "originalPath": "/features/drayage-contract-library"
+      },
+      {
+        "id": "port-rail-event-ingestion",
+        "title": "Port rail event ingestion",
+        "originalPath": "/features/port-rail-event-ingestion"
+      },
+      {
+        "id": "base-drayage-calculation",
+        "title": "Base drayage calculation",
+        "originalPath": "/features/base-drayage-calculation"
+      },
+      {
+        "id": "failed-attempt-responsibility",
+        "title": "Failed attempt responsibility",
+        "originalPath": "/features/failed-attempt-responsibility"
+      },
+      {
+        "id": "port-carrier-analytics",
+        "title": "Port carrier analytics",
+        "originalPath": "/features/port-carrier-analytics"
+      },
+      {
+        "id": "card-driver-and-vehicle-registry",
+        "title": "Card driver and vehicle registry",
+        "originalPath": "/features/card-driver-and-vehicle-registry"
+      },
+      {
+        "id": "fuel-transaction-ingestion",
+        "title": "Fuel transaction ingestion",
+        "originalPath": "/features/fuel-transaction-ingestion"
+      },
+      {
+        "id": "toll-transaction-ingestion",
+        "title": "Toll transaction ingestion",
+        "originalPath": "/features/toll-transaction-ingestion"
+      },
+      {
+        "id": "vendor-dispute-and-recovery",
+        "title": "Vendor dispute and recovery",
+        "originalPath": "/features/vendor-dispute-and-recovery"
+      },
+      {
+        "id": "vehicle-vendor-and-route-analytics",
+        "title": "Vehicle vendor and route analytics",
+        "originalPath": "/features/vehicle-vendor-and-route-analytics"
+      },
+      {
+        "id": "zone-and-activation-registry",
+        "title": "Zone and activation registry",
+        "originalPath": "/features/zone-and-activation-registry"
+      },
+      {
+        "id": "foreign-and-domestic-status",
+        "title": "Foreign and domestic status",
+        "originalPath": "/features/foreign-and-domestic-status"
+      },
+      {
+        "id": "admission-transaction-ingestion",
+        "title": "Admission transaction ingestion",
+        "originalPath": "/features/admission-transaction-ingestion"
+      },
+      {
+        "id": "zone-to-zone-transfer-management",
+        "title": "Zone-to-zone transfer management",
+        "originalPath": "/features/zone-to-zone-transfer-management"
+      },
+      {
+        "id": "production-bom-consumption",
+        "title": "Production BOM consumption",
+        "originalPath": "/features/production-bom-consumption"
+      },
+      {
+        "id": "inverted-tariff-savings-calculation",
+        "title": "Inverted-tariff savings calculation",
+        "originalPath": "/features/inverted-tariff-savings-calculation"
+      },
+      {
+        "id": "duty-deferral-calculation",
+        "title": "Duty deferral calculation",
+        "originalPath": "/features/duty-deferral-calculation"
+      },
+      {
+        "id": "scrap-and-waste-treatment",
+        "title": "Scrap and waste treatment",
+        "originalPath": "/features/scrap-and-waste-treatment"
+      },
+      {
+        "id": "export-and-destruction-relief",
+        "title": "Export and destruction relief",
+        "originalPath": "/features/export-and-destruction-relief"
+      },
+      {
+        "id": "entry-and-withdrawal-preparation",
+        "title": "Entry and withdrawal preparation",
+        "originalPath": "/features/entry-and-withdrawal-preparation"
+      },
+      {
+        "id": "cbp-discrepancy-workflow",
+        "title": "CBP discrepancy workflow",
+        "originalPath": "/features/cbp-discrepancy-workflow"
+      },
+      {
+        "id": "ftz-annual-report-preparation",
+        "title": "FTZ annual report preparation",
+        "originalPath": "/features/ftz-annual-report-preparation"
+      },
+      {
+        "id": "provider-contract-library",
+        "title": "Provider contract library",
+        "originalPath": "/features/provider-contract-library"
+      },
+      {
+        "id": "shipment-container-registry",
+        "title": "Shipment container registry",
+        "originalPath": "/features/shipment-container-registry"
+      },
+      {
+        "id": "rail-event-ingestion",
+        "title": "Rail event ingestion",
+        "originalPath": "/features/rail-event-ingestion"
+      },
+      {
+        "id": "terminal-event-timeline",
+        "title": "Terminal event timeline",
+        "originalPath": "/features/terminal-event-timeline"
+      },
+      {
+        "id": "free-time-calculation",
+        "title": "Free-time calculation",
+        "originalPath": "/features/free-time-calculation"
+      },
+      {
+        "id": "chassis-responsibility",
+        "title": "Chassis responsibility",
+        "originalPath": "/features/chassis-responsibility"
+      },
+      {
+        "id": "drayage-linkage",
+        "title": "Drayage linkage",
+        "originalPath": "/features/drayage-linkage"
+      },
+      {
+        "id": "provider-dispute-package",
+        "title": "Provider dispute package",
+        "originalPath": "/features/provider-dispute-package"
+      },
+      {
+        "id": "terminal-provider-analytics",
+        "title": "Terminal provider analytics",
+        "originalPath": "/features/terminal-provider-analytics"
+      },
+      {
+        "id": "service-contract-library",
+        "title": "Service contract library",
+        "originalPath": "/features/service-contract-library"
+      },
+      {
+        "id": "origin-destination-rate-matrix",
+        "title": "Origin-destination rate matrix",
+        "originalPath": "/features/origin-destination-rate-matrix"
+      },
+      {
+        "id": "container-and-equipment-registry",
+        "title": "Container and equipment registry",
+        "originalPath": "/features/container-and-equipment-registry"
+      },
+      {
+        "id": "bill-of-lading-ingestion",
+        "title": "Bill-of-lading ingestion",
+        "originalPath": "/features/bill-of-lading-ingestion"
+      },
+      {
+        "id": "base-ocean-rate-reconstruction",
+        "title": "Base ocean rate reconstruction",
+        "originalPath": "/features/base-ocean-rate-reconstruction"
+      },
+      {
+        "id": "mqc-tracking",
+        "title": "MQC tracking",
+        "originalPath": "/features/mqc-tracking"
+      },
+      {
+        "id": "carrier-dispute-generation",
+        "title": "Carrier dispute generation",
+        "originalPath": "/features/carrier-dispute-generation"
+      },
+      {
+        "id": "lane-and-equipment-analytics",
+        "title": "Lane and equipment analytics",
+        "originalPath": "/features/lane-and-equipment-analytics"
+      },
+      {
+        "id": "asset-rate-library",
+        "title": "Asset rate library",
+        "originalPath": "/features/asset-rate-library"
+      },
+      {
+        "id": "serialized-pooled-registry",
+        "title": "Serialized pooled registry",
+        "originalPath": "/features/serialized-pooled-registry"
+      },
+      {
+        "id": "shipment-transfer-ingestion",
+        "title": "Shipment transfer ingestion",
+        "originalPath": "/features/shipment-transfer-ingestion"
+      },
+      {
+        "id": "trading-partner-balances",
+        "title": "Trading partner balances",
+        "originalPath": "/features/trading-partner-balances"
+      },
+      {
+        "id": "daily-hire-calculation",
+        "title": "Daily hire calculation",
+        "originalPath": "/features/daily-hire-calculation"
+      },
+      {
+        "id": "transfer-rejection-workflow",
+        "title": "Transfer rejection workflow",
+        "originalPath": "/features/transfer-rejection-workflow"
+      },
+      {
+        "id": "unreturned-asset-alerts",
+        "title": "Unreturned asset alerts",
+        "originalPath": "/features/unreturned-asset-alerts"
+      },
+      {
+        "id": "provider-dispute-workflow",
+        "title": "Provider dispute workflow",
+        "originalPath": "/features/provider-dispute-workflow"
+      },
+      {
+        "id": "asset-recovery-ledger",
+        "title": "Asset recovery ledger",
+        "originalPath": "/features/asset-recovery-ledger"
+      },
+      {
+        "id": "network-cycle-analytics",
+        "title": "Network cycle analytics",
+        "originalPath": "/features/network-cycle-analytics"
+      },
+      {
+        "id": "carrier-contract-and-rate-card-library",
+        "title": "Carrier contract and rate-card library",
+        "originalPath": "/features/carrier-contract-and-rate-card-library"
+      },
+      {
+        "id": "shipment-manifest-ingestion",
+        "title": "Shipment manifest ingestion",
+        "originalPath": "/features/shipment-manifest-ingestion"
+      },
+      {
+        "id": "base-rate-recalculation",
+        "title": "Base-rate recalculation",
+        "originalPath": "/features/base-rate-recalculation"
+      },
+      {
+        "id": "late-delivery-guarantee-recovery",
+        "title": "Late-delivery guarantee recovery",
+        "originalPath": "/features/late-delivery-guarantee-recovery"
+      },
+      {
+        "id": "carrier-dispute-packet-generation",
+        "title": "Carrier dispute packet generation",
+        "originalPath": "/features/carrier-dispute-packet-generation"
+      },
+      {
+        "id": "carrier-lane-and-leakage-analytics",
+        "title": "Carrier lane and leakage analytics",
+        "originalPath": "/features/carrier-lane-and-leakage-analytics"
+      },
+      {
+        "id": "terminal-tariff-library",
+        "title": "Terminal tariff library",
+        "originalPath": "/features/terminal-tariff-library"
+      },
+      {
+        "id": "gate-event-ingestion",
+        "title": "Gate event ingestion",
+        "originalPath": "/features/gate-event-ingestion"
+      },
+      {
+        "id": "wharfage-calculation",
+        "title": "Wharfage calculation",
+        "originalPath": "/features/wharfage-calculation"
+      },
+      {
+        "id": "reefer-power-duration",
+        "title": "Reefer power duration",
+        "originalPath": "/features/reefer-power-duration"
+      },
+      {
+        "id": "overweight-handling",
+        "title": "Overweight handling",
+        "originalPath": "/features/overweight-handling"
+      },
+      {
+        "id": "customs-exam-charge",
+        "title": "Customs exam charge",
+        "originalPath": "/features/customs-exam-charge"
+      },
+      {
+        "id": "empty-return-treatment",
+        "title": "Empty return treatment",
+        "originalPath": "/features/empty-return-treatment"
+      },
+      {
+        "id": "terminal-dispute-workflow",
+        "title": "Terminal dispute workflow",
+        "originalPath": "/features/terminal-dispute-workflow"
+      },
+      {
+        "id": "port-charge-analytics",
+        "title": "Port charge analytics",
+        "originalPath": "/features/port-charge-analytics"
+      },
+      {
+        "id": "return-authorization-registry",
+        "title": "Return authorization registry",
+        "originalPath": "/features/return-authorization-registry"
+      },
+      {
+        "id": "sku-and-serial-tracking",
+        "title": "SKU and serial tracking",
+        "originalPath": "/features/sku-and-serial-tracking"
+      },
+      {
+        "id": "return-shipment-generation",
+        "title": "Return shipment generation",
+        "originalPath": "/features/return-shipment-generation"
+      },
+      {
+        "id": "vendor-receipt-confirmation",
+        "title": "Vendor receipt confirmation",
+        "originalPath": "/features/vendor-receipt-confirmation"
+      },
+      {
+        "id": "core-and-deposit-recovery",
+        "title": "Core and deposit recovery",
+        "originalPath": "/features/core-and-deposit-recovery"
+      },
+      {
+        "id": "vendor-inquiry-workflow",
+        "title": "Vendor inquiry workflow",
+        "originalPath": "/features/vendor-inquiry-workflow"
+      },
+      {
+        "id": "vendor-and-sku-recovery-analytics",
+        "title": "Vendor and SKU recovery analytics",
+        "originalPath": "/features/vendor-and-sku-recovery-analytics"
+      },
+      {
+        "id": "carrier-agreement-library",
+        "title": "Carrier agreement library",
+        "originalPath": "/features/carrier-agreement-library"
+      },
+      {
+        "id": "package-manifest-ingestion",
+        "title": "Package manifest ingestion",
+        "originalPath": "/features/package-manifest-ingestion"
+      },
+      {
+        "id": "tracking-event-timeline",
+        "title": "Tracking event timeline",
+        "originalPath": "/features/tracking-event-timeline"
+      },
+      {
+        "id": "service-commitment-calculation",
+        "title": "Service commitment calculation",
+        "originalPath": "/features/service-commitment-calculation"
+      },
+      {
+        "id": "weather-waiver-review",
+        "title": "Weather waiver review",
+        "originalPath": "/features/weather-waiver-review"
+      },
+      {
+        "id": "denial-appeal-workflow",
+        "title": "Denial appeal workflow",
+        "originalPath": "/features/denial-appeal-workflow"
+      },
+      {
+        "id": "carrier-service-analytics",
+        "title": "Carrier service analytics",
+        "originalPath": "/features/carrier-service-analytics"
+      },
+      {
+        "id": "product-master-ingestion",
+        "title": "Product master ingestion",
+        "originalPath": "/features/product-master-ingestion"
+      },
+      {
+        "id": "binding-ruling-library",
+        "title": "Binding ruling library",
+        "originalPath": "/features/binding-ruling-library"
+      },
+      {
+        "id": "substantial-transformation-test",
+        "title": "Substantial transformation test",
+        "originalPath": "/features/substantial-transformation-test"
+      },
+      {
+        "id": "trade-agreement-qualification",
+        "title": "Trade agreement qualification",
+        "originalPath": "/features/trade-agreement-qualification"
+      },
+      {
+        "id": "section-301-exclusion-mapping",
+        "title": "Section 301 exclusion mapping",
+        "originalPath": "/features/section-301-exclusion-mapping"
+      },
+      {
+        "id": "entry-line-ingestion",
+        "title": "Entry line ingestion",
+        "originalPath": "/features/entry-line-ingestion"
+      },
+      {
+        "id": "duty-recalculation",
+        "title": "Duty recalculation",
+        "originalPath": "/features/duty-recalculation"
+      },
+      {
+        "id": "post-summary-correction",
+        "title": "Post-summary correction",
+        "originalPath": "/features/post-summary-correction"
+      },
+      {
+        "id": "prior-disclosure-coordination",
+        "title": "Prior disclosure coordination",
+        "originalPath": "/features/prior-disclosure-coordination"
+      },
+      {
+        "id": "customs-response-tracking",
+        "title": "Customs response tracking",
+        "originalPath": "/features/customs-response-tracking"
+      },
+      {
+        "id": "product-origin-analytics",
+        "title": "Product origin analytics",
+        "originalPath": "/features/product-origin-analytics"
+      },
+      {
+        "id": "carrier-broker-agreement-library",
+        "title": "Carrier broker agreement library",
+        "originalPath": "/features/carrier-broker-agreement-library"
+      },
+      {
+        "id": "lane-rate-registry",
+        "title": "Lane rate registry",
+        "originalPath": "/features/lane-rate-registry"
+      },
+      {
+        "id": "tender-load-ingestion",
+        "title": "Tender load ingestion",
+        "originalPath": "/features/tender-load-ingestion"
+      },
+      {
+        "id": "contract-versus-spot-determination",
+        "title": "Contract versus spot determination",
+        "originalPath": "/features/contract-versus-spot-determination"
+      },
+      {
+        "id": "linehaul-recalculation",
+        "title": "Linehaul recalculation",
+        "originalPath": "/features/linehaul-recalculation"
+      },
+      {
+        "id": "mileage-calculation",
+        "title": "Mileage calculation",
+        "originalPath": "/features/mileage-calculation"
+      },
+      {
+        "id": "carrier-dispute-workflow",
+        "title": "Carrier dispute workflow",
+        "originalPath": "/features/carrier-dispute-workflow"
+      },
+      {
+        "id": "lane-carrier-analytics",
+        "title": "Lane carrier analytics",
+        "originalPath": "/features/lane-carrier-analytics"
+      },
+      {
+        "id": "routes",
+        "title": "Routes",
+        "originalPath": "/features/routes"
+      },
+      {
+        "id": "maintenance",
+        "title": "Maintenance",
+        "originalPath": "/features/maintenance"
+      },
+      {
+        "id": "analytics-carbon",
+        "title": "Carbon",
+        "originalPath": "/features/analytics-carbon"
+      },
+      {
+        "id": "analytics-fleet-utilization",
+        "title": "Fleet utilization",
+        "originalPath": "/features/analytics-fleet-utilization"
+      },
+      {
+        "id": "fleet-summary",
+        "title": "Fleet summary",
+        "originalPath": "/features/fleet-summary"
+      },
+      {
+        "id": "driver-coaching",
+        "title": "Driver coaching",
+        "originalPath": "/features/driver-coaching"
+      },
+      {
+        "id": "fuel-waste",
+        "title": "Fuel waste",
+        "originalPath": "/features/fuel-waste"
+      },
+      {
+        "id": "carbon-tracker",
+        "title": "Carbon tracker",
+        "originalPath": "/features/carbon-tracker"
+      },
+      {
+        "id": "breakdown-prevention",
+        "title": "Breakdown prevention",
+        "originalPath": "/features/breakdown-prevention"
+      },
+      {
+        "id": "load-balancer",
+        "title": "Load balancer",
+        "originalPath": "/features/load-balancer"
+      },
+      {
+        "id": "driver-wellness",
+        "title": "Driver wellness",
+        "originalPath": "/features/driver-wellness"
+      },
+      {
+        "id": "driver-burnout",
+        "title": "Driver burnout",
+        "originalPath": "/features/driver-burnout"
+      },
+      {
+        "id": "models",
+        "title": "AI Models",
+        "originalPath": "/features/models"
+      },
+      {
+        "id": "assistant",
+        "title": "AI Assistant",
+        "originalPath": "/features/assistant"
+      },
+      {
+        "id": "api-ai-broker-instruction",
+        "title": "Broker Instruction",
+        "originalPath": "/features/api-ai-broker-instruction"
+      },
+      {
+        "id": "supply-chain-visibility",
+        "title": "Supply chain visibility",
+        "originalPath": "/features/supply-chain-visibility"
+      },
+      {
+        "id": "dynamic-rate",
+        "title": "Dynamic Rate",
+        "originalPath": "/features/dynamic-rate"
+      },
+      {
+        "id": "lane-profitability",
+        "title": "Lane Profitability",
+        "originalPath": "/features/lane-profitability"
+      },
+      {
+        "id": "spot-market-scan",
+        "title": "Spot Market Scan",
+        "originalPath": "/features/spot-market-scan"
+      },
+      {
+        "id": "damage-vision",
+        "title": "Damage Vision Assessor",
+        "originalPath": "/features/damage-vision"
+      },
+      {
+        "id": "results",
+        "title": "AI Results",
+        "originalPath": "/features/results"
+      },
+      {
+        "id": "vision-based-damage-assessment-accepting",
+        "title": "Vision-Based Damage Assessment",
+        "originalPath": "/features/vision-based-damage-assessment-accepting"
+      },
+      {
+        "id": "market-intelligence",
+        "title": "Market Intelligence",
+        "originalPath": "/features/market-intelligence"
+      },
+      {
+        "id": "hub",
+        "title": "Hub",
+        "originalPath": "/features/hub"
+      },
+      {
+        "id": "performance",
+        "title": "Performance",
+        "originalPath": "/features/performance"
+      },
+      {
+        "id": "improvements",
+        "title": "Improvement Suggestions",
+        "originalPath": "/features/improvements"
+      },
+      {
+        "id": "driver-route-match",
+        "title": "Driver-Route Match",
+        "originalPath": "/features/driver-route-match"
+      },
+      {
+        "id": "vehicle-maintenance-alert",
+        "title": "Vehicle Maintenance Alert",
+        "originalPath": "/features/vehicle-maintenance-alert"
+      },
+      {
+        "id": "weather",
+        "title": "Weather Impact",
+        "originalPath": "/features/weather"
+      },
+      {
+        "id": "center-chat",
+        "title": "AI Chat Assistant",
+        "originalPath": "/features/center-chat"
+      },
+      {
+        "id": "center-simulate-scenario",
+        "title": "Scenario Simulator",
+        "originalPath": "/features/center-simulate-scenario"
+      },
+      {
+        "id": "port-drayage-constraint",
+        "title": "Port drayage constraint",
+        "originalPath": "/features/port-drayage-constraint"
+      },
+      {
+        "id": "usage",
+        "title": "Usage",
+        "originalPath": "/features/usage"
+      },
+      {
+        "id": "home-staging",
+        "title": "Home Staging",
+        "originalPath": "/features/home-staging"
+      },
+      {
+        "id": "furniture-placer",
+        "title": "Furniture Placer",
+        "originalPath": "/features/furniture-placer"
+      },
+      {
+        "id": "home-inspector",
+        "title": "Home Inspector",
+        "originalPath": "/features/home-inspector"
+      },
+      {
+        "id": "suggestions",
+        "title": "Suggestions",
+        "originalPath": "/features/suggestions"
+      },
+      {
+        "id": "material-contractor",
+        "title": "Material contractor",
+        "originalPath": "/features/material-contractor"
+      },
+      {
+        "id": "batch09-gap-ai-generative-variant-exploration-alternate-layouts-in-seconds",
+        "title": "Generative variant exploration alternate layouts in seconds",
+        "originalPath": "/features/batch09-gap-ai-generative-variant-exploration-alternate-layouts-in-seconds"
+      },
+      {
+        "id": "batch09-gap-nonai-client-communication-portal-messaging-thread",
+        "title": "Client communication portal messaging thread",
+        "originalPath": "/features/batch09-gap-nonai-client-communication-portal-messaging-thread"
+      },
+      {
+        "id": "batch09-gap-nonai-project-timeline-gantt-tracking-with-dependencies",
+        "title": "Project timeline gantt tracking with dependencies",
+        "originalPath": "/features/batch09-gap-nonai-project-timeline-gantt-tracking-with-dependencies"
+      },
+      {
+        "id": "batch09-gap-nonai-bulk-import-from-photos-folder-ingest",
+        "title": "Bulk import from photos folder ingest",
+        "originalPath": "/features/batch09-gap-nonai-bulk-import-from-photos-folder-ingest"
+      },
+      {
+        "id": "batch09-gap-nonai-vendorsupplier-order-tracking-integrated-to-shopping-lists",
+        "title": "Vendorsupplier order tracking integrated to shopping lists",
+        "originalPath": "/features/batch09-gap-nonai-vendorsupplier-order-tracking-integrated-to-shopping-lists"
+      },
+      {
+        "id": "shipping",
+        "title": "Shipping work",
+        "originalPath": "/features/shipping"
+      }
+    ]
+  },
+  {
+    "id": "ai-finance",
+    "title": "Finance & reconciliation",
+    "group": "AI assistants",
+    "path": "/assistants/ai-finance",
+    "featureIds": [
+      "receipt-and-putaway-reconciliation",
+      "invoice-recalculation",
+      "credit-reconciliation",
+      "screening-fee-audit",
+      "handling-fee-audit",
+      "invoice-matching",
+      "cbp-report-reconciliation",
+      "duty-payment-reconciliation",
+      "temperature-excursion-credit",
+      "chassis-day-reconciliation",
+      "price-and-discount-audit",
+      "rebate-reconciliation",
+      "inventory-control-reconciliation",
+      "repair-damage-fee-audit",
+      "depot-receipt-reconciliation",
+      "customer-recovery-billing",
+      "invoice-and-edi-ingestion",
+      "duplicate-invoice-detection",
+      "credit-and-refund-reconciliation",
+      "security-fee-audit",
+      "hazardous-cargo-fee",
+      "expected-credit-calculation",
+      "restocking-fee-validation",
+      "warranty-credit-validation",
+      "recall-credit-reconciliation",
+      "missing-credit-detection",
+      "credit-memo-matching",
+      "general-ledger-reconciliation",
+      "refund-eligibility-calculation",
+      "carrier-refund-submission",
+      "credit-invoice-reconciliation",
+      "refund-evidence-package",
+      "analytics-cost-per-mile",
+      "cost-allocation",
+      "cost-per-mile-report",
+      "api-ai-landed-cost-optimizer",
+      "cost-analysis",
+      "pricing-tools",
+      "dynamic-pricing-recommender",
+      "labor-cost-forecast",
+      "labor-arbitrage-modeling-comparing-wage-productivity-training-costs",
+      "ai-endpoints-under-enumerated-should-expose-labor-cost-prediction",
+      "ai-driven-freight-cost-optimization",
+      "freight-cost-analytics",
+      "batch09-cfs-ar-preview-with-live-furniture-price-availability-integratio",
+      "batch09-gap-nonai-invoicepayment-tracking-and-milestone-billing"
+    ],
+    "ai": true,
+    "representativeId": "receipt-and-putaway-reconciliation",
+    "description": "One assistant for 46 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "receipt-and-putaway-reconciliation",
+        "title": "Receipt and putaway reconciliation",
+        "originalPath": "/features/receipt-and-putaway-reconciliation"
+      },
+      {
+        "id": "invoice-recalculation",
+        "title": "Invoice recalculation",
+        "originalPath": "/features/invoice-recalculation"
+      },
+      {
+        "id": "credit-reconciliation",
+        "title": "Credit reconciliation",
+        "originalPath": "/features/credit-reconciliation"
+      },
+      {
+        "id": "screening-fee-audit",
+        "title": "Screening fee audit",
+        "originalPath": "/features/screening-fee-audit"
+      },
+      {
+        "id": "handling-fee-audit",
+        "title": "Handling fee audit",
+        "originalPath": "/features/handling-fee-audit"
+      },
+      {
+        "id": "invoice-matching",
+        "title": "Invoice matching",
+        "originalPath": "/features/invoice-matching"
+      },
+      {
+        "id": "cbp-report-reconciliation",
+        "title": "CBP report reconciliation",
+        "originalPath": "/features/cbp-report-reconciliation"
+      },
+      {
+        "id": "duty-payment-reconciliation",
+        "title": "Duty payment reconciliation",
+        "originalPath": "/features/duty-payment-reconciliation"
+      },
+      {
+        "id": "temperature-excursion-credit",
+        "title": "Temperature excursion credit",
+        "originalPath": "/features/temperature-excursion-credit"
+      },
+      {
+        "id": "chassis-day-reconciliation",
+        "title": "Chassis day reconciliation",
+        "originalPath": "/features/chassis-day-reconciliation"
+      },
+      {
+        "id": "price-and-discount-audit",
+        "title": "Price and discount audit",
+        "originalPath": "/features/price-and-discount-audit"
+      },
+      {
+        "id": "rebate-reconciliation",
+        "title": "Rebate reconciliation",
+        "originalPath": "/features/rebate-reconciliation"
+      },
+      {
+        "id": "inventory-control-reconciliation",
+        "title": "Inventory control reconciliation",
+        "originalPath": "/features/inventory-control-reconciliation"
+      },
+      {
+        "id": "repair-damage-fee-audit",
+        "title": "Repair damage fee audit",
+        "originalPath": "/features/repair-damage-fee-audit"
+      },
+      {
+        "id": "depot-receipt-reconciliation",
+        "title": "Depot receipt reconciliation",
+        "originalPath": "/features/depot-receipt-reconciliation"
+      },
+      {
+        "id": "customer-recovery-billing",
+        "title": "Customer recovery billing",
+        "originalPath": "/features/customer-recovery-billing"
+      },
+      {
+        "id": "invoice-and-edi-ingestion",
+        "title": "Invoice and EDI ingestion",
+        "originalPath": "/features/invoice-and-edi-ingestion"
+      },
+      {
+        "id": "duplicate-invoice-detection",
+        "title": "Duplicate invoice detection",
+        "originalPath": "/features/duplicate-invoice-detection"
+      },
+      {
+        "id": "credit-and-refund-reconciliation",
+        "title": "Credit and refund reconciliation",
+        "originalPath": "/features/credit-and-refund-reconciliation"
+      },
+      {
+        "id": "security-fee-audit",
+        "title": "Security fee audit",
+        "originalPath": "/features/security-fee-audit"
+      },
+      {
+        "id": "hazardous-cargo-fee",
+        "title": "Hazardous cargo fee",
+        "originalPath": "/features/hazardous-cargo-fee"
+      },
+      {
+        "id": "expected-credit-calculation",
+        "title": "Expected credit calculation",
+        "originalPath": "/features/expected-credit-calculation"
+      },
+      {
+        "id": "restocking-fee-validation",
+        "title": "Restocking fee validation",
+        "originalPath": "/features/restocking-fee-validation"
+      },
+      {
+        "id": "warranty-credit-validation",
+        "title": "Warranty credit validation",
+        "originalPath": "/features/warranty-credit-validation"
+      },
+      {
+        "id": "recall-credit-reconciliation",
+        "title": "Recall credit reconciliation",
+        "originalPath": "/features/recall-credit-reconciliation"
+      },
+      {
+        "id": "missing-credit-detection",
+        "title": "Missing-credit detection",
+        "originalPath": "/features/missing-credit-detection"
+      },
+      {
+        "id": "credit-memo-matching",
+        "title": "Credit memo matching",
+        "originalPath": "/features/credit-memo-matching"
+      },
+      {
+        "id": "general-ledger-reconciliation",
+        "title": "General-ledger reconciliation",
+        "originalPath": "/features/general-ledger-reconciliation"
+      },
+      {
+        "id": "refund-eligibility-calculation",
+        "title": "Refund eligibility calculation",
+        "originalPath": "/features/refund-eligibility-calculation"
+      },
+      {
+        "id": "carrier-refund-submission",
+        "title": "Carrier refund submission",
+        "originalPath": "/features/carrier-refund-submission"
+      },
+      {
+        "id": "credit-invoice-reconciliation",
+        "title": "Credit invoice reconciliation",
+        "originalPath": "/features/credit-invoice-reconciliation"
+      },
+      {
+        "id": "refund-evidence-package",
+        "title": "Refund evidence package",
+        "originalPath": "/features/refund-evidence-package"
+      },
+      {
+        "id": "analytics-cost-per-mile",
+        "title": "Cost per mile",
+        "originalPath": "/features/analytics-cost-per-mile"
+      },
+      {
+        "id": "cost-allocation",
+        "title": "Cost allocation",
+        "originalPath": "/features/cost-allocation"
+      },
+      {
+        "id": "cost-per-mile-report",
+        "title": "Cost per mile report",
+        "originalPath": "/features/cost-per-mile-report"
+      },
+      {
+        "id": "api-ai-landed-cost-optimizer",
+        "title": "Landed Cost Optimizer",
+        "originalPath": "/features/api-ai-landed-cost-optimizer"
+      },
+      {
+        "id": "cost-analysis",
+        "title": "Cost Analysis",
+        "originalPath": "/features/cost-analysis"
+      },
+      {
+        "id": "pricing-tools",
+        "title": "AI Pricing Tools",
+        "originalPath": "/features/pricing-tools"
+      },
+      {
+        "id": "dynamic-pricing-recommender",
+        "title": "Dynamic Pricing Recommender",
+        "originalPath": "/features/dynamic-pricing-recommender"
+      },
+      {
+        "id": "labor-cost-forecast",
+        "title": "Labor cost forecast",
+        "originalPath": "/features/labor-cost-forecast"
+      },
+      {
+        "id": "labor-arbitrage-modeling-comparing-wage-productivity-training-costs",
+        "title": "labor arbitrage modeling comparing wage productivity training costs",
+        "originalPath": "/features/labor-arbitrage-modeling-comparing-wage-productivity-training-costs"
+      },
+      {
+        "id": "ai-endpoints-under-enumerated-should-expose-labor-cost-prediction",
+        "title": "ai endpoints under enumerated should expose labor cost prediction",
+        "originalPath": "/features/ai-endpoints-under-enumerated-should-expose-labor-cost-prediction"
+      },
+      {
+        "id": "ai-driven-freight-cost-optimization",
+        "title": "ai driven freight cost optimization",
+        "originalPath": "/features/ai-driven-freight-cost-optimization"
+      },
+      {
+        "id": "freight-cost-analytics",
+        "title": "freight cost analytics",
+        "originalPath": "/features/freight-cost-analytics"
+      },
+      {
+        "id": "batch09-cfs-ar-preview-with-live-furniture-price-availability-integratio",
+        "title": "Ar preview with live furniture price availability integratio",
+        "originalPath": "/features/batch09-cfs-ar-preview-with-live-furniture-price-availability-integratio"
+      },
+      {
+        "id": "batch09-gap-nonai-invoicepayment-tracking-and-milestone-billing",
+        "title": "Invoicepayment tracking and milestone billing",
+        "originalPath": "/features/batch09-gap-nonai-invoicepayment-tracking-and-milestone-billing"
+      }
+    ]
+  },
+  {
+    "id": "ai-quality",
+    "title": "Risk, quality & compliance",
+    "group": "AI assistants",
+    "path": "/assistants/ai-quality",
+    "featureIds": [
+      "pick-pack-and-handling-audit",
+      "value-added-service-validation",
+      "labor-charge-audit",
+      "actual-weight-validation",
+      "security-surcharge-audit",
+      "fuel-surcharge-validation",
+      "routing-service-validation",
+      "inventory-receipt-control",
+      "export-withdrawal-control",
+      "destruction-evidence",
+      "inbound-handling-audit",
+      "outbound-handling-audit",
+      "energy-surcharge-validation",
+      "split-charge-validation",
+      "flip-charge-validation",
+      "pre-pull-audit",
+      "storage-yard-charge-control",
+      "overweight-permit-validation",
+      "toll-fuel-audit",
+      "fuel-grade-and-product-validation",
+      "rental-and-replacement-vehicle-control",
+      "fraud-case-workbench",
+      "card-control-and-preventive-alerts",
+      "privileged-status-control",
+      "duty-savings-and-compliance-analytics",
+      "storage-charge-audit",
+      "lift-charge-validation",
+      "flip-split-validation",
+      "bunker-adjustment-validation",
+      "peak-season-surcharge-audit",
+      "general-rate-increase-control",
+      "origin-charge-audit",
+      "destination-charge-audit",
+      "currency-validation",
+      "lost-asset-validation",
+      "dim-weight-validation",
+      "accessorial-charge-validation",
+      "fuel-surcharge-audit",
+      "address-correction-validation",
+      "ltl-class-and-density-audit",
+      "minimum-charge-and-discount-audit",
+      "lift-move-validation",
+      "vendor-return-policy-library",
+      "carrier-delivery-evidence",
+      "delivery-timestamp-validation",
+      "exception-code-validation",
+      "peak-waiver-control",
+      "address-correction-audit",
+      "protest-deadline-control",
+      "fuel-index-validation",
+      "stop-off-charge-audit",
+      "layover-validation",
+      "detention-validation",
+      "lumper-evidence",
+      "tonu-validation",
+      "fuel-fraud",
+      "scenario-safety",
+      "api-ai-export-controls",
+      "api-ai-country-risk",
+      "sanctions-lacks-ai-risk-screening-agent",
+      "fraud-detection",
+      "anomaly-detection",
+      "liability-risk-assessment",
+      "environmental-compliance-checker",
+      "center-risk-monitor",
+      "regulatory-complexity-assessment-flagging-esg-fta-reporting-burden",
+      "predictive-quality-issues-flagging-suppliers-routes-with-quality",
+      "blockchain-traceability-for-high-value-regulated-shipments",
+      "iot-sensor-stream-ingestion-for-cold-chain-compliance",
+      "predictive-quality-scoring",
+      "predict-quality",
+      "energy-auditor"
+    ],
+    "ai": true,
+    "representativeId": "pick-pack-and-handling-audit",
+    "description": "One assistant for 72 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "pick-pack-and-handling-audit",
+        "title": "Pick pack and handling audit",
+        "originalPath": "/features/pick-pack-and-handling-audit"
+      },
+      {
+        "id": "value-added-service-validation",
+        "title": "Value-added service validation",
+        "originalPath": "/features/value-added-service-validation"
+      },
+      {
+        "id": "labor-charge-audit",
+        "title": "Labor charge audit",
+        "originalPath": "/features/labor-charge-audit"
+      },
+      {
+        "id": "actual-weight-validation",
+        "title": "Actual weight validation",
+        "originalPath": "/features/actual-weight-validation"
+      },
+      {
+        "id": "security-surcharge-audit",
+        "title": "Security surcharge audit",
+        "originalPath": "/features/security-surcharge-audit"
+      },
+      {
+        "id": "fuel-surcharge-validation",
+        "title": "Fuel surcharge validation",
+        "originalPath": "/features/fuel-surcharge-validation"
+      },
+      {
+        "id": "routing-service-validation",
+        "title": "Routing service validation",
+        "originalPath": "/features/routing-service-validation"
+      },
+      {
+        "id": "inventory-receipt-control",
+        "title": "Inventory receipt control",
+        "originalPath": "/features/inventory-receipt-control"
+      },
+      {
+        "id": "export-withdrawal-control",
+        "title": "Export withdrawal control",
+        "originalPath": "/features/export-withdrawal-control"
+      },
+      {
+        "id": "destruction-evidence",
+        "title": "Destruction evidence",
+        "originalPath": "/features/destruction-evidence"
+      },
+      {
+        "id": "inbound-handling-audit",
+        "title": "Inbound handling audit",
+        "originalPath": "/features/inbound-handling-audit"
+      },
+      {
+        "id": "outbound-handling-audit",
+        "title": "Outbound handling audit",
+        "originalPath": "/features/outbound-handling-audit"
+      },
+      {
+        "id": "energy-surcharge-validation",
+        "title": "Energy surcharge validation",
+        "originalPath": "/features/energy-surcharge-validation"
+      },
+      {
+        "id": "split-charge-validation",
+        "title": "Split charge validation",
+        "originalPath": "/features/split-charge-validation"
+      },
+      {
+        "id": "flip-charge-validation",
+        "title": "Flip charge validation",
+        "originalPath": "/features/flip-charge-validation"
+      },
+      {
+        "id": "pre-pull-audit",
+        "title": "Pre-pull audit",
+        "originalPath": "/features/pre-pull-audit"
+      },
+      {
+        "id": "storage-yard-charge-control",
+        "title": "Storage yard charge control",
+        "originalPath": "/features/storage-yard-charge-control"
+      },
+      {
+        "id": "overweight-permit-validation",
+        "title": "Overweight permit validation",
+        "originalPath": "/features/overweight-permit-validation"
+      },
+      {
+        "id": "toll-fuel-audit",
+        "title": "Toll fuel audit",
+        "originalPath": "/features/toll-fuel-audit"
+      },
+      {
+        "id": "fuel-grade-and-product-validation",
+        "title": "Fuel grade and product validation",
+        "originalPath": "/features/fuel-grade-and-product-validation"
+      },
+      {
+        "id": "rental-and-replacement-vehicle-control",
+        "title": "Rental and replacement vehicle control",
+        "originalPath": "/features/rental-and-replacement-vehicle-control"
+      },
+      {
+        "id": "fraud-case-workbench",
+        "title": "Fraud case workbench",
+        "originalPath": "/features/fraud-case-workbench"
+      },
+      {
+        "id": "card-control-and-preventive-alerts",
+        "title": "Card control and preventive alerts",
+        "originalPath": "/features/card-control-and-preventive-alerts"
+      },
+      {
+        "id": "privileged-status-control",
+        "title": "Privileged status control",
+        "originalPath": "/features/privileged-status-control"
+      },
+      {
+        "id": "duty-savings-and-compliance-analytics",
+        "title": "Duty savings and compliance analytics",
+        "originalPath": "/features/duty-savings-and-compliance-analytics"
+      },
+      {
+        "id": "storage-charge-audit",
+        "title": "Storage charge audit",
+        "originalPath": "/features/storage-charge-audit"
+      },
+      {
+        "id": "lift-charge-validation",
+        "title": "Lift charge validation",
+        "originalPath": "/features/lift-charge-validation"
+      },
+      {
+        "id": "flip-split-validation",
+        "title": "Flip split validation",
+        "originalPath": "/features/flip-split-validation"
+      },
+      {
+        "id": "bunker-adjustment-validation",
+        "title": "Bunker adjustment validation",
+        "originalPath": "/features/bunker-adjustment-validation"
+      },
+      {
+        "id": "peak-season-surcharge-audit",
+        "title": "Peak-season surcharge audit",
+        "originalPath": "/features/peak-season-surcharge-audit"
+      },
+      {
+        "id": "general-rate-increase-control",
+        "title": "General rate increase control",
+        "originalPath": "/features/general-rate-increase-control"
+      },
+      {
+        "id": "origin-charge-audit",
+        "title": "Origin charge audit",
+        "originalPath": "/features/origin-charge-audit"
+      },
+      {
+        "id": "destination-charge-audit",
+        "title": "Destination charge audit",
+        "originalPath": "/features/destination-charge-audit"
+      },
+      {
+        "id": "currency-validation",
+        "title": "Currency validation",
+        "originalPath": "/features/currency-validation"
+      },
+      {
+        "id": "lost-asset-validation",
+        "title": "Lost asset validation",
+        "originalPath": "/features/lost-asset-validation"
+      },
+      {
+        "id": "dim-weight-validation",
+        "title": "DIM-weight validation",
+        "originalPath": "/features/dim-weight-validation"
+      },
+      {
+        "id": "accessorial-charge-validation",
+        "title": "Accessorial charge validation",
+        "originalPath": "/features/accessorial-charge-validation"
+      },
+      {
+        "id": "fuel-surcharge-audit",
+        "title": "Fuel-surcharge audit",
+        "originalPath": "/features/fuel-surcharge-audit"
+      },
+      {
+        "id": "address-correction-validation",
+        "title": "Address-correction validation",
+        "originalPath": "/features/address-correction-validation"
+      },
+      {
+        "id": "ltl-class-and-density-audit",
+        "title": "LTL class and density audit",
+        "originalPath": "/features/ltl-class-and-density-audit"
+      },
+      {
+        "id": "minimum-charge-and-discount-audit",
+        "title": "Minimum-charge and discount audit",
+        "originalPath": "/features/minimum-charge-and-discount-audit"
+      },
+      {
+        "id": "lift-move-validation",
+        "title": "Lift move validation",
+        "originalPath": "/features/lift-move-validation"
+      },
+      {
+        "id": "vendor-return-policy-library",
+        "title": "Vendor return-policy library",
+        "originalPath": "/features/vendor-return-policy-library"
+      },
+      {
+        "id": "carrier-delivery-evidence",
+        "title": "Carrier delivery evidence",
+        "originalPath": "/features/carrier-delivery-evidence"
+      },
+      {
+        "id": "delivery-timestamp-validation",
+        "title": "Delivery timestamp validation",
+        "originalPath": "/features/delivery-timestamp-validation"
+      },
+      {
+        "id": "exception-code-validation",
+        "title": "Exception code validation",
+        "originalPath": "/features/exception-code-validation"
+      },
+      {
+        "id": "peak-waiver-control",
+        "title": "Peak waiver control",
+        "originalPath": "/features/peak-waiver-control"
+      },
+      {
+        "id": "address-correction-audit",
+        "title": "Address correction audit",
+        "originalPath": "/features/address-correction-audit"
+      },
+      {
+        "id": "protest-deadline-control",
+        "title": "Protest deadline control",
+        "originalPath": "/features/protest-deadline-control"
+      },
+      {
+        "id": "fuel-index-validation",
+        "title": "Fuel index validation",
+        "originalPath": "/features/fuel-index-validation"
+      },
+      {
+        "id": "stop-off-charge-audit",
+        "title": "Stop-off charge audit",
+        "originalPath": "/features/stop-off-charge-audit"
+      },
+      {
+        "id": "layover-validation",
+        "title": "Layover validation",
+        "originalPath": "/features/layover-validation"
+      },
+      {
+        "id": "detention-validation",
+        "title": "Detention validation",
+        "originalPath": "/features/detention-validation"
+      },
+      {
+        "id": "lumper-evidence",
+        "title": "Lumper evidence",
+        "originalPath": "/features/lumper-evidence"
+      },
+      {
+        "id": "tonu-validation",
+        "title": "TONU validation",
+        "originalPath": "/features/tonu-validation"
+      },
+      {
+        "id": "fuel-fraud",
+        "title": "Fuel fraud",
+        "originalPath": "/features/fuel-fraud"
+      },
+      {
+        "id": "scenario-safety",
+        "title": "Scenario safety",
+        "originalPath": "/features/scenario-safety"
+      },
+      {
+        "id": "api-ai-export-controls",
+        "title": "Export Controls",
+        "originalPath": "/features/api-ai-export-controls"
+      },
+      {
+        "id": "api-ai-country-risk",
+        "title": "Country Risk",
+        "originalPath": "/features/api-ai-country-risk"
+      },
+      {
+        "id": "sanctions-lacks-ai-risk-screening-agent",
+        "title": "Sanctions lacks ai risk screening agent",
+        "originalPath": "/features/sanctions-lacks-ai-risk-screening-agent"
+      },
+      {
+        "id": "fraud-detection",
+        "title": "Fraud Detection",
+        "originalPath": "/features/fraud-detection"
+      },
+      {
+        "id": "anomaly-detection",
+        "title": "Anomaly Detection",
+        "originalPath": "/features/anomaly-detection"
+      },
+      {
+        "id": "liability-risk-assessment",
+        "title": "Liability Risk Assessment",
+        "originalPath": "/features/liability-risk-assessment"
+      },
+      {
+        "id": "environmental-compliance-checker",
+        "title": "Environmental Compliance Checker",
+        "originalPath": "/features/environmental-compliance-checker"
+      },
+      {
+        "id": "center-risk-monitor",
+        "title": "Risk Monitor",
+        "originalPath": "/features/center-risk-monitor"
+      },
+      {
+        "id": "regulatory-complexity-assessment-flagging-esg-fta-reporting-burden",
+        "title": "regulatory complexity assessment flagging esg fta reporting burden",
+        "originalPath": "/features/regulatory-complexity-assessment-flagging-esg-fta-reporting-burden"
+      },
+      {
+        "id": "predictive-quality-issues-flagging-suppliers-routes-with-quality",
+        "title": "predictive quality issues flagging suppliers routes with quality",
+        "originalPath": "/features/predictive-quality-issues-flagging-suppliers-routes-with-quality"
+      },
+      {
+        "id": "blockchain-traceability-for-high-value-regulated-shipments",
+        "title": "blockchain traceability for high value regulated shipments",
+        "originalPath": "/features/blockchain-traceability-for-high-value-regulated-shipments"
+      },
+      {
+        "id": "iot-sensor-stream-ingestion-for-cold-chain-compliance",
+        "title": "iot sensor stream ingestion for cold chain compliance",
+        "originalPath": "/features/iot-sensor-stream-ingestion-for-cold-chain-compliance"
+      },
+      {
+        "id": "predictive-quality-scoring",
+        "title": "predictive quality scoring",
+        "originalPath": "/features/predictive-quality-scoring"
+      },
+      {
+        "id": "predict-quality",
+        "title": "Predict quality",
+        "originalPath": "/features/predict-quality"
+      },
+      {
+        "id": "energy-auditor",
+        "title": "Energy Auditor",
+        "originalPath": "/features/energy-auditor"
+      }
+    ]
+  },
+  {
+    "id": "ai-planning",
+    "title": "Planning & scheduling",
+    "group": "AI assistants",
+    "path": "/assistants/ai-planning",
+    "featureIds": [
+      "minimum-capacity-validation",
+      "container-booking-registry",
+      "appointment-evidence",
+      "fuel-volume-and-tank-capacity-control",
+      "booking-ingestion",
+      "booking-container-registry",
+      "route-optimization",
+      "carrier-capacity-forecast",
+      "customer-demand-forecasting-lane-capacit"
+    ],
+    "ai": true,
+    "representativeId": "minimum-capacity-validation",
+    "description": "One assistant for 9 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "minimum-capacity-validation",
+        "title": "Minimum capacity validation",
+        "originalPath": "/features/minimum-capacity-validation"
+      },
+      {
+        "id": "container-booking-registry",
+        "title": "Container booking registry",
+        "originalPath": "/features/container-booking-registry"
+      },
+      {
+        "id": "appointment-evidence",
+        "title": "Appointment evidence",
+        "originalPath": "/features/appointment-evidence"
+      },
+      {
+        "id": "fuel-volume-and-tank-capacity-control",
+        "title": "Fuel volume and tank-capacity control",
+        "originalPath": "/features/fuel-volume-and-tank-capacity-control"
+      },
+      {
+        "id": "booking-ingestion",
+        "title": "Booking ingestion",
+        "originalPath": "/features/booking-ingestion"
+      },
+      {
+        "id": "booking-container-registry",
+        "title": "Booking container registry",
+        "originalPath": "/features/booking-container-registry"
+      },
+      {
+        "id": "route-optimization",
+        "title": "Route optimization",
+        "originalPath": "/features/route-optimization"
+      },
+      {
+        "id": "carrier-capacity-forecast",
+        "title": "Carrier Capacity Forecast",
+        "originalPath": "/features/carrier-capacity-forecast"
+      },
+      {
+        "id": "customer-demand-forecasting-lane-capacit",
+        "title": "Customer Demand Forecasting + Lane Capacity",
+        "originalPath": "/features/customer-demand-forecasting-lane-capacit"
+      }
+    ]
+  },
+  {
+    "id": "ai-insights",
+    "title": "Insights & recommendations",
+    "group": "AI assistants",
+    "path": "/assistants/ai-insights",
+    "featureIds": [
+      "telematics-and-odometer-matching",
+      "impossible-transaction-detection",
+      "duplicate-and-impossible-toll-detection",
+      "part-and-hts-classification",
+      "late-delivery-detection",
+      "hts-classification-review",
+      "country-of-origin-analysis",
+      "analytics-maintenance-trends",
+      "fuel-analysis",
+      "driver-analysis",
+      "predictive-maintenance",
+      "fleet-insights",
+      "route-recommendation",
+      "collision-analyses",
+      "spoilage",
+      "predictive",
+      "duties-lacks-ai-tariff-optimization-endpoint",
+      "shipments-lacks-ai-delay-prediction",
+      "energy-forecast",
+      "charger-queue-forecast",
+      "contract-optimization",
+      "shipment-mode-recommendation",
+      "detention-demurrage",
+      "contract-optimization-recommender",
+      "lane-profitability-analyzer",
+      "mode-of-shipment-recommender-air",
+      "demand-forecast",
+      "sla-predictor",
+      "delivery-time",
+      "demand",
+      "incident",
+      "fleet",
+      "container-yard-optimization",
+      "weather-impact-analysis",
+      "tariff-impact-forecast",
+      "supply-chain-resilience-score",
+      "supply-chain-resilience-scoring-quantifying-single-sourcing-and-geopolitical",
+      "nearshoring-specific-recommendation-engine-for-mexico-canada",
+      "network-optimization-recommending-facility-sourcing-locations",
+      "last-mile-delivery-optimization-with-route-and-consolidation-recommendations",
+      "ai-driven-network-optimization-facility-sourcing-point-placement",
+      "room-detector",
+      "analysis",
+      "full-analyses",
+      "maintenance-prediction",
+      "batch09-cfs-multi-modal-vision-analyze-floorplan-photos-measurements-sim",
+      "batch09-gap-ai-predictive-material-wear-and-lifespan-modeling",
+      "batch09-gap-ai-contractor-matching-ai-based-on-skill-geography-and-project",
+      "full-analysis"
+    ],
+    "ai": true,
+    "representativeId": "telematics-and-odometer-matching",
+    "description": "One assistant for 49 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "telematics-and-odometer-matching",
+        "title": "Telematics and odometer matching",
+        "originalPath": "/features/telematics-and-odometer-matching"
+      },
+      {
+        "id": "impossible-transaction-detection",
+        "title": "Impossible transaction detection",
+        "originalPath": "/features/impossible-transaction-detection"
+      },
+      {
+        "id": "duplicate-and-impossible-toll-detection",
+        "title": "Duplicate and impossible toll detection",
+        "originalPath": "/features/duplicate-and-impossible-toll-detection"
+      },
+      {
+        "id": "part-and-hts-classification",
+        "title": "Part and HTS classification",
+        "originalPath": "/features/part-and-hts-classification"
+      },
+      {
+        "id": "late-delivery-detection",
+        "title": "Late delivery detection",
+        "originalPath": "/features/late-delivery-detection"
+      },
+      {
+        "id": "hts-classification-review",
+        "title": "HTS classification review",
+        "originalPath": "/features/hts-classification-review"
+      },
+      {
+        "id": "country-of-origin-analysis",
+        "title": "Country-of-origin analysis",
+        "originalPath": "/features/country-of-origin-analysis"
+      },
+      {
+        "id": "analytics-maintenance-trends",
+        "title": "Maintenance trends",
+        "originalPath": "/features/analytics-maintenance-trends"
+      },
+      {
+        "id": "fuel-analysis",
+        "title": "Fuel analysis",
+        "originalPath": "/features/fuel-analysis"
+      },
+      {
+        "id": "driver-analysis",
+        "title": "Driver analysis",
+        "originalPath": "/features/driver-analysis"
+      },
+      {
+        "id": "predictive-maintenance",
+        "title": "Predictive maintenance",
+        "originalPath": "/features/predictive-maintenance"
+      },
+      {
+        "id": "fleet-insights",
+        "title": "Fleet insights",
+        "originalPath": "/features/fleet-insights"
+      },
+      {
+        "id": "route-recommendation",
+        "title": "Route recommendation",
+        "originalPath": "/features/route-recommendation"
+      },
+      {
+        "id": "collision-analyses",
+        "title": "Collision Analysis",
+        "originalPath": "/features/collision-analyses"
+      },
+      {
+        "id": "spoilage",
+        "title": "Spoilage Predictions",
+        "originalPath": "/features/spoilage"
+      },
+      {
+        "id": "predictive",
+        "title": "Predictive Ops",
+        "originalPath": "/features/predictive"
+      },
+      {
+        "id": "duties-lacks-ai-tariff-optimization-endpoint",
+        "title": "Duties lacks ai tariff optimization endpoint",
+        "originalPath": "/features/duties-lacks-ai-tariff-optimization-endpoint"
+      },
+      {
+        "id": "shipments-lacks-ai-delay-prediction",
+        "title": "Shipments lacks ai delay prediction",
+        "originalPath": "/features/shipments-lacks-ai-delay-prediction"
+      },
+      {
+        "id": "energy-forecast",
+        "title": "Energy Forecast",
+        "originalPath": "/features/energy-forecast"
+      },
+      {
+        "id": "charger-queue-forecast",
+        "title": "Charger Queue Forecast",
+        "originalPath": "/features/charger-queue-forecast"
+      },
+      {
+        "id": "contract-optimization",
+        "title": "Contract Optimization",
+        "originalPath": "/features/contract-optimization"
+      },
+      {
+        "id": "shipment-mode-recommendation",
+        "title": "Mode Recommendation",
+        "originalPath": "/features/shipment-mode-recommendation"
+      },
+      {
+        "id": "detention-demurrage",
+        "title": "Detention & Demurrage Predictor",
+        "originalPath": "/features/detention-demurrage"
+      },
+      {
+        "id": "contract-optimization-recommender",
+        "title": "Contract Optimization Recommender Gap",
+        "originalPath": "/features/contract-optimization-recommender"
+      },
+      {
+        "id": "lane-profitability-analyzer",
+        "title": "Lane Profitability Analyzer Gap",
+        "originalPath": "/features/lane-profitability-analyzer"
+      },
+      {
+        "id": "mode-of-shipment-recommender-air",
+        "title": "Mode Recommendation Gap",
+        "originalPath": "/features/mode-of-shipment-recommender-air"
+      },
+      {
+        "id": "demand-forecast",
+        "title": "Demand Forecast",
+        "originalPath": "/features/demand-forecast"
+      },
+      {
+        "id": "sla-predictor",
+        "title": "SLA Predictor",
+        "originalPath": "/features/sla-predictor"
+      },
+      {
+        "id": "delivery-time",
+        "title": "Delivery Time Prediction",
+        "originalPath": "/features/delivery-time"
+      },
+      {
+        "id": "demand",
+        "title": "Demand Forecasting",
+        "originalPath": "/features/demand"
+      },
+      {
+        "id": "incident",
+        "title": "Incident Analysis",
+        "originalPath": "/features/incident"
+      },
+      {
+        "id": "fleet",
+        "title": "Fleet Optimization",
+        "originalPath": "/features/fleet"
+      },
+      {
+        "id": "container-yard-optimization",
+        "title": "Container Yard Optimization",
+        "originalPath": "/features/container-yard-optimization"
+      },
+      {
+        "id": "weather-impact-analysis",
+        "title": "Weather Impact Analysis",
+        "originalPath": "/features/weather-impact-analysis"
+      },
+      {
+        "id": "tariff-impact-forecast",
+        "title": "Tariff impact forecast",
+        "originalPath": "/features/tariff-impact-forecast"
+      },
+      {
+        "id": "supply-chain-resilience-score",
+        "title": "Supply chain resilience score",
+        "originalPath": "/features/supply-chain-resilience-score"
+      },
+      {
+        "id": "supply-chain-resilience-scoring-quantifying-single-sourcing-and-geopolitical",
+        "title": "supply chain resilience scoring quantifying single sourcing and geopolitical",
+        "originalPath": "/features/supply-chain-resilience-scoring-quantifying-single-sourcing-and-geopolitical"
+      },
+      {
+        "id": "nearshoring-specific-recommendation-engine-for-mexico-canada",
+        "title": "nearshoring specific recommendation engine for mexico canada",
+        "originalPath": "/features/nearshoring-specific-recommendation-engine-for-mexico-canada"
+      },
+      {
+        "id": "network-optimization-recommending-facility-sourcing-locations",
+        "title": "network optimization recommending facility sourcing locations",
+        "originalPath": "/features/network-optimization-recommending-facility-sourcing-locations"
+      },
+      {
+        "id": "last-mile-delivery-optimization-with-route-and-consolidation-recommendations",
+        "title": "last mile delivery optimization with route and consolidation recommendations",
+        "originalPath": "/features/last-mile-delivery-optimization-with-route-and-consolidation-recommendations"
+      },
+      {
+        "id": "ai-driven-network-optimization-facility-sourcing-point-placement",
+        "title": "ai driven network optimization facility sourcing point placement",
+        "originalPath": "/features/ai-driven-network-optimization-facility-sourcing-point-placement"
+      },
+      {
+        "id": "room-detector",
+        "title": "Room Detector",
+        "originalPath": "/features/room-detector"
+      },
+      {
+        "id": "analysis",
+        "title": "Analysis",
+        "originalPath": "/features/analysis"
+      },
+      {
+        "id": "full-analyses",
+        "title": "Full analyses",
+        "originalPath": "/features/full-analyses"
+      },
+      {
+        "id": "maintenance-prediction",
+        "title": "Maintenance prediction",
+        "originalPath": "/features/maintenance-prediction"
+      },
+      {
+        "id": "batch09-cfs-multi-modal-vision-analyze-floorplan-photos-measurements-sim",
+        "title": "Multi modal vision analyze floorplan photos measurements sim",
+        "originalPath": "/features/batch09-cfs-multi-modal-vision-analyze-floorplan-photos-measurements-sim"
+      },
+      {
+        "id": "batch09-gap-ai-predictive-material-wear-and-lifespan-modeling",
+        "title": "Predictive material wear and lifespan modeling",
+        "originalPath": "/features/batch09-gap-ai-predictive-material-wear-and-lifespan-modeling"
+      },
+      {
+        "id": "batch09-gap-ai-contractor-matching-ai-based-on-skill-geography-and-project",
+        "title": "Contractor matching ai based on skill geography and project",
+        "originalPath": "/features/batch09-gap-ai-contractor-matching-ai-based-on-skill-geography-and-project"
+      },
+      {
+        "id": "full-analysis",
+        "title": "Full analysis",
+        "originalPath": "/features/full-analysis"
+      }
+    ]
+  },
+  {
+    "id": "ai-creative",
+    "title": "Creative & design",
+    "group": "AI assistants",
+    "path": "/assistants/ai-creative",
+    "featureIds": [
+      "history"
+    ],
+    "ai": true,
+    "representativeId": "history",
+    "description": "One assistant for 1 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "history",
+        "title": "History",
+        "originalPath": "/features/history"
+      }
+    ]
+  },
+  {
+    "id": "ai-growth",
+    "title": "Marketing & customer growth",
+    "group": "AI assistants",
+    "path": "/assistants/ai-growth",
+    "featureIds": [
+      "customer-churn-predictor",
+      "batch09-cfs-contractor-marketplace-with-ai-skill-matching-and-reputation"
+    ],
+    "ai": true,
+    "representativeId": "customer-churn-predictor",
+    "description": "One assistant for 2 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "customer-churn-predictor",
+        "title": "Customer Churn Predictor",
+        "originalPath": "/features/customer-churn-predictor"
+      },
+      {
+        "id": "batch09-cfs-contractor-marketplace-with-ai-skill-matching-and-reputation",
+        "title": "Contractor marketplace with ai skill matching and reputation",
+        "originalPath": "/features/batch09-cfs-contractor-marketplace-with-ai-skill-matching-and-reputation"
+      }
+    ]
+  }
+]
